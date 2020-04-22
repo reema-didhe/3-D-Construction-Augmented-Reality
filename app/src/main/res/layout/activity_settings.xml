@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/contentBodyColor">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.ActionBarContainer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimaryDark"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <ImageView
+                    android:id="@+id/backimg"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:contentDescription="Back icon"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_arrow_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:text="Settings"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.ActionBarContainer>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileCircleImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/imageBorderColor"
+                android:src="@drawable/user_dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/usernameTextView"
+                style="@style/viewParent.headerText"
+                android:text="Reema"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                style="@style/viewParent.headerText"
+                android:text="Edit Application Settings"
+                android:textSize="16sp"
+                android:textColor="#5D5C5C"
+                android:layout_below="@id/usernameTextView"
+                android:layout_toRightOf="@id/profileCircleImageView"/>
+
+            <ImageView
+                style="@style/viewParent"
+                android:src="@drawable/ic_more"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <Switch
+            android:id="@+id/darkModeSwitch"
+            style="@style/settingsText"
+            android:drawableLeft="@drawable/ic_dark_mode"
+            android:text="Dark Mode" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Profile"/>
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_edit_profile"
+            android:text="Edit Profile" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_edit_password"
+            android:layout_marginTop="10dp"
+            android:text="Change Password" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Notifications"/>
+
+        <Switch
+            style="@style/settingsText"
+            android:checked="true"
+            android:drawableLeft="@drawable/ic_notifications"
+            android:text="Notifications" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Regional"/>
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_languages"
+            android:text="Language" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_logout"
+            android:text="Tutorial" />
+
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="How to Use this Application"
+            android:textAlignment="center"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+<!--</ScrollView>-->
+</LinearLayout>

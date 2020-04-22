@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "774777633260",
+    "firebase_url": "https://augmentedreality3d-d700f.firebaseio.com",
+    "project_id": "augmentedreality3d-d700f",
+    "storage_bucket": "augmentedreality3d-d700f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774777633260:android:c1b534a31b32d9c15128c9",
+        "android_client_info": {
+          "package_name": "com.example.augmentedreality3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774777633260-4i8ql7daglq29308or8jt0a0vqiaujqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.augmentedreality3d",
+            "certificate_hash": "c8a01ee4f00fcd06493fea3767fe04dd9c353ed7"
+          }
+        },
+        {
+          "client_id": "774777633260-1qt9eqffvb4542qgslddvut0mav5ggvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5DEf6VEy7QMTdC7IA7UwC-pr2A22-JAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774777633260-1qt9eqffvb4542qgslddvut0mav5ggvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
