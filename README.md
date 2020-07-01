@@ -5,4 +5,4 @@ Screenshots/Layouts:
 
 <img src = "Screenshot_20200419-121342_3-D Construction AR (1).jpg" height = "400" > <img src = "Screenshot_20200419-121543_3-D Construction AR.jpg" height = "400" >
 <img src = "Screenshot_20200508-104229_3-D Construction AR.jpg" height = "400" > <img src = "Screenshot_20200508-104246_3-D Construction AR.jpg" height = "400" >
-<img src = "Screenshot_20200508-104258_3-D Construction AR.jpg" height = "400" > <img src = "Screenshot_20200508-104308_3-D Construction AR.jpg" height = "400" >
+
