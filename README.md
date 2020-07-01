@@ -4,7 +4,7 @@ This android application is based on Augmented Reality technology using Wikitude
 Screenshots/Layouts:
 
 <img src = "Screenshot_20200419-121342_3-D Construction AR (1).jpg" height = "400" > <img src = "Screenshot_20200419-121543_3-D Construction AR.jpg" height = "400" >
-<img src = "Screenshot_20200419-121543_3-D Construction AR.jpg" height = "400" > <img src = "granular1.jpg" height = "400" >
+<img src = "Screenshot_20200508-104229_3-D Construction AR.jpg" height = "400" > <img src = "granular1.jpg" height = "400" >
 <img src = "granular2.jpg" height = "400" > <img src = "granular1.jpg" height = "400" >
 <img src = "granular2.jpg" height = "400" > <img src = "granular1.jpg" height = "400" >
 <img src = "granular2.jpg" height = "400" > <img src = "granular1.jpg" height = "400" >
